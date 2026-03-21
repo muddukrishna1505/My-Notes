@@ -1,0 +1,8 @@
+DNS setup:
+=========
+1.Purchase a domain from Godaddy/Hostineger(web hosting providers)
+2.Go to aws then search for Route53(DNS service) then select Hosted Zones click on Create Hosted Zone
+give domain name(it should be same as your purchased domain) ex:bmkrishtech.xyz click on create.
+Then you will see record name bmkrishtech.xyz and record type A some nameservers
+3.Open your domain ex: bmkrishtech.xyz thne click on internet icon -> nameservers then click nameservers becauser we are adding nameservers from aws(our infra will be in aws so)
+
